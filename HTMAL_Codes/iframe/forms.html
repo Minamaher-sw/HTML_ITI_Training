@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="https://drive.google.com/drive/u/0/folders/16C-uhVYzrc0NBLd1xmeabQO3jRASVrXN"  method="get" >
+            <label for ="FN" >Full Name</label>
+            <input id="FN" type="text" name ="FullNmae" size="12" maxlength="10" placeholder="Enter your name">
+            <br>
+            <label for ="ag" >Age</label>
+            <input id = "ag" type="number" name ="age" placeholder="Enter your age">
+            <br>
+            <!-- Hidden value-->
+            <input  type="hidden" name="ID" value="1">
+            <!-- Password Field -->
+             <label for ="pwd">password</label>
+             <input id ="Pwd" type="password" name="password" >
+             <br>
+             <!--- Text aree -->
+             <textarea cols="12" rows="12" >
+                12222222222222222222222222222222222
+             </textarea>
+             <br>
+             <!-- Check Box-->
+              <div style="color: blueviolet   ;font-size: medium;">Select your skills</div>
+              <input id ="CHB1" type="checkbox" name="Skill 1" value="1" checked><label for="CHB1">HTML</label><br>
+              <input id ="CHB2" type="checkbox" name="Skill 2" value="2" ><label for="CHB2">CSS</label><br>
+              <input id ="CHB3" type="checkbox" name="Skill 3" value="3" ><label for="CHB3">JS</label><br>
+             <!-- radio button mandatory take same name-->
+             <div style="color: bisque   ;font-size: medium;">Select your skills</div>
+             <input id ="RB1" type="radio" name="Skill" value="1" ><label for="RB1">HTML</label><br>
+             <input id ="RB2" type="radio" name="Skill" value="2" ><label for="RB2">CSS</label><br>
+             <input id ="RB3" type="radio" name="Skill" value="3" ><label for="RB3">IS</label><br>
+             <!-- Drop down list withot mltiple-->
+              <span style="font-size: medium;"><label for="FAC1">Faculty :</label></span>
+              <select id ="FAC1" name="Faculty">
+                <option>sohag university</option>
+                <option>cairo university</option>
+                <option>asuit university</option>
+                <option>gena university</option>
+              </select>
+             <br>
+             <!-- Drop down list wit multiple-->
+             <span style="font-size: medium;"><label for="FAC2">Faculty :</label></span>
+             <select id ="FAC2" name="Faculty" multiple>
+               <option>sohag university</option>
+               <option>cairo university</option>
+               <option>asuit university</option>
+               <option>gena university</option>
+             </select>
+            <br>
+            <input type="reset"  value="cancle" >
+            <input type="submit" value="save" >
+             <!-- How upload file from your pc-->
+              <br>
+              <label for="fil" >pdf</label>
+              <input id="fil" type="file" name="pdf" >
+             <br>
+             <!-- ordinary buuton-->
+             <label for="BT" >Register</label>
+              <input id ="BT" type="button" name="register" >
+             <!-- Field set -->
+              <fieldset>
+                <legend>login</legend>
+                <label for ="NM" >Name</label>
+                <input id ="NM" type="text" name ="name" >
+                <label for ="ps" >password</label>
+                <input id ="ps" type="password" name ="password" >
+
+              </fieldset>
+        </form>
+     
+    </body>
+</html>
