@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- header of page  -->
+         <title>
+            HTML Basic Elements
+         </title>
+        <meta charset="UTF_8" >
+        <meta name="describe"  content="Free course" >
+        <meta name="viewport" content="width = device-width ,initial-scale =1" >
+        <meta name="author"  content="Mina Maher Mosadef" >
+        <style>
+            td,th{border:dashed 1px gray; padding: 5px;}
+        </style>
+    </head>
+
+    <body>
+        <!-- Iftame -->
+        <div style="text-align: right;">
+            <iframe name="first" src="https://www.youtube.com/embed/w-N1oYXGOVw?si=79MZx9PIdIerW6Fj"  width="560" height="315" > </iframe>
+            <h3 st> DevOps Roadmap - تيك بودكاست بالعربي - إزاي تبقى ديڤ أوبس شاطر</h3>    
+        </div>
+        <div style="text-align: right;">
+            <iframe name="second" src="https://livehd77.pro/"  width="560" height="315" > </iframe>
+            <h3 st> watch match </h3>    
+        </div>
+
+        <a href="https://www.wikipedia.org/" target="second" >Wiipadia page</a>
+
+        <!-- Tables -->
+         <br>
+         <table style="border: solid 1px black; border-spacing: 0px; margin-top: 20px;" >
+            <caption style="font-size: medium;">
+                <b>  Student Information</b>
+            </caption>
+            <thead style="background-color: blanchedalmond;">
+                <tr >
+                    <b>
+                        <th > Name</th>
+                        <th>  Age </th>   
+                        <th> Email</th>
+                    </b>
+                    
+                </tr>
+            </thead>
+            <tbody style="background-color: aquamarine;">
+                <tr>
+                    <td>Mina Maher Mosadef</td>
+                    <td> 25 years old</td>
+                    <td>menamosadef5@gmail.com</td>
+                </tr>
+            </tbody>
+            
+         </table>
+         <!-- Col span Row span-->
+          <table style="border: solid 1px black; border-spacing: 0px; margin-top: 20px;" >
+            <caption>
+                Table 1
+            </caption>
+            <tr>
+                <td colspan="2" style="text-align: center;"><b>Student Number</b></td>
+             
+            </tr>
+            <tfoot style="background-color: brown;">
+                <tr>
+                    <td>01148786601</td>
+                    <td>01224865175</td>
+                </tr>
+            </tfoot>
+           
+          </table>
+          <table style="border: solid 1px black; border-spacing: 0px; margin-top: 20px;" >
+            <caption>
+                Table 2
+            </caption>
+            <tr>
+                <td style="text-align: center;" rowspan="2"><b>Student Number</b></td>
+                <td>01148786601</td>
+             
+            </tr>
+            <tr>
+                <td>01224865175</td>
+            </tr>
+          </table>
+          <table style="border: solid 1px black; border-spacing: 0px; margin-top: 20px;" >
+            <caption>
+                Table 3
+            </caption>
+            <tr>
+                <td style="text-align: center; " rowspan="2" colspan="2"><b>Student Number</b></td>
+                <td>01148786601</td>
+                
+             
+            </tr>
+            <tr>
+                <td>01148786601</td>
+               
+             
+            </tr>
+            <tr>
+                <td>01224865175</td>
+                <td>01224865175</td>
+                <td>01224865175</td>
+            </tr>
+          </table>
+        <table style="border: solid 1px black; border-spacing: 0px; margin-top: 20px;">
+            <caption>
+                Table 4
+            </caption>
+            <colgroup>
+                <col style="background-color: gray;" >
+                <col style="background-color :aqua;" >
+            </colgroup>
+           
+            <tr>
+                <th>Name </th>
+                <td>Mina Maher Mosadef</td>
+            </tr>
+            <tr>
+                <th rowspan="2" >Telephone</th>
+                <td>01148786601</td>
+            </tr>
+            <tr>
+                <td>01148786602</td>
+            </tr>
+        </table>
+
+        <!--  ****************  Forms *******************-->
+          <form action="https://www.w3schools.com/html/default.asp" method="post" style="margin-top: 12px;">
+            <label for="NA" >Full Name</label>
+            <input id="NA"  name="my name is" type="text" placeholder="Enter your Name" maxlength="17" size="17" tabindex="2" ><br>
+
+            <label for="AG">Age</label>
+            <input id="AG"  name="my age is" type="datetime" placeholder="Enter your age"  tabindex="1"  ><br>
+            <!-- Hidden Field-->
+            <input id="HD" type="hidden" name="Passsword" value="mena123qwww">
+
+            <!-- Password -->
+             <label for ='Pwd' >Password</label>
+             <input id="Pwd" type="password" name="my password" placeholder="Enter password" tabindex="3"> <br>
+
+             <!--Text Area -->
+             <label for="TXA" ><b>Text Area</b></label><br>
+             <textarea id="TXA" name="Text" cols="12" rows="4" >
+                Now we are inside the area - which is nice.
+             </textarea><br>
+
+             <!-- Check Box-->
+              <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: larger;color: black;"> <b>Selct Your Skills</b></div>
+              <input type="checkbox" name="Skill"  value="1" accesskey="r"><b>HTML</b> <small>to choose it press alt+r</small> <br>
+              <input type="checkbox" name="Skill"  value="2" accesskey="z"><b>CSS</b><kbd>alt+z</kbd> <br>
+              <input type="checkbox" name="Skill"  value="3"><b>JS</b> <br>
+
+              <!--Radio    Button-->
+              <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: larger;color: black;"> <b>Selct Your Skills</b></div>
+              <input type="radio" name="Skill"  value="1"><b>HTML</b> <br>
+              <input type="radio" name="Skill"  value="2"><b>CSS</b> <br>
+              <input type="radio" name="Skill"  value="3"><b>JS</b> <br>
+
+              <!-- Drop Down list-->
+             <br>
+             <div>
+                <label for="DDL" >Select faculty</label>
+             <select id ="DDL" name="faculty is"  multiple>
+                <option >Engineering</option>
+                <option selected>Medicin</option>
+                <option>Culture</option>
+             </select>
+             </div>
+             <!-- choose file from or pc-->
+             <div>
+                <label for="F"> Choose File</label>
+                <input type="file" name="my uupload file" >
+             </div>
+
+             <!-- ordinary Button-->
+             <br>
+             <input type="button" value="Next">
+             <br>
+             <!-- Fieldset-->
+             
+                <fieldset>
+                    <legend> Login </legend>
+                    <span>
+                        <label for="NA2">Full Name</label>
+                        <input id ="NA2" type="text" name ="my name">
+                        <label for ="Pwd2" >Password</label>
+                        <input id ="Pwd2" type="password" name="my password">
+                    </span>
+                  
+                   
+                  </fieldset>
+
+                  <!-- HTML Features -->
+                   <div>
+                    <label for="D" >Name</label>
+                    <input type="text" id="D" name="date is "   required title="please Must enter at least 4 letters" pattern="[A-Za-z]{4,}"  autocomplete="off"><br>
+
+                    <label for="E" >Email</label>
+                    <input type="email" name="my email" id="E"><br>
+
+                    <label for="N2" >Phone Number</label>
+                    <input id="N2" type="number" name="my phone number" ><br>
+
+                    <label for="T2" >Time</label>
+                    <input id="T2" type="datetime" name="Time is" ><br>
+
+                    <label for="C">your color</label>
+                    <input type="color" name="user color" id="C">
+                   </div>
+                   <audio controls>
+                    <source src="rec/مهرجان براويزه غناء شحته كاريكا توزيع مادو الفظيع كلمات امير شيكو.mp3" type="audio/mpeg">
+                   </audio>
+                   <br>
+                   <video controls style="width: 128px;height: 128px;">
+                    <source src="video/VID20200805130709.mp4" type="video/mp4">
+                   </audio>
+
+              
+             <input type="reset"  value="cancle" >
+            <input type="submit" value="save"  >
+        
+
+            
+             
+          </form>
+    </body>
+</html>
