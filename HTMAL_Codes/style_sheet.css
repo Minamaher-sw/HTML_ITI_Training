@@ -14,3 +14,6 @@ input[type="date"]{ background-color: #0dcb59; color: aliceblue;}
 a[href ^=http]{color: aquamarine; font-size: 34;}
 
 a[href$=com]{color: rgb(234, 150, 24); font-size: 34;}
+
+/* ID Selector */
+#DIV1{color: rgb(14, 220, 86); font-size: 22; background-color: aliceblue;}
