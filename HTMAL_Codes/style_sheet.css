@@ -30,3 +30,7 @@ p.largtxt{font-size: xx-large;}
 /* Descendant and contextual Selector */
 h1{color: rgb(40, 209, 21);}
 h1 span{color: #160dcb;}
+/* child selector */
+div>p{color: darkmagenta; font-size: medium;}
+div>span{font-size: medium;}
+span p{color: #160dcb ; font-size: xx-large;}
