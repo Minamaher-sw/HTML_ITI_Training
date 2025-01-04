@@ -1,4 +1,4 @@
-span{color: rgb(203, 37, 78); font-size: x-large; border: solid 3px yellowgreen;}
+span{color: rgb(203, 37, 78); border: solid 3px yellowgreen;}
 *{color: hwb(271 7% 11%); font-size: larger;}
 div *{border: dashed 2px blanchedalmond;}
 div{border: solid 3px blanchedalmond;}
@@ -17,3 +17,12 @@ a[href$=com]{color: rgb(234, 150, 24); font-size: 34;}
 
 /* ID Selector */
 #DIV1{color: rgb(14, 220, 86); font-size: 22; background-color: aliceblue;}
+
+/* Classes Selector */
+p{font-family: 'Times New Roman', Times, serif;}
+p.parg{background-color: #0dcb59; color: aliceblue;}
+p.parg1{background-color: #160dcb; color: aliceblue;}
+p.boldtxt{font-weight: bold;}
+p.largtxt{font-size: xx-large;}
+
+.bold{font-weight: bold; font-size: xx-large;}
