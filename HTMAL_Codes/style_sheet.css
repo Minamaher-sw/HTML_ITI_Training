@@ -26,3 +26,7 @@ p.boldtxt{font-weight: bold;}
 p.largtxt{font-size: xx-large;}
 
 .bold{font-weight: bold; font-size: xx-large;}
+
+/* Descendant and contextual Selector */
+h1{color: rgb(40, 209, 21);}
+h1 span{color: #160dcb;}
