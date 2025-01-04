@@ -49,6 +49,24 @@ h4,h4,h4{color: aqua;font-weight: bold;}
  a:hover {color: #19e27a;} /* mouse over link */
  a:active{color: aliceblue;}
  a.menu:active{color: #160dcb;}
+
+ /* paragraph pseudo selector */
+ p:first-child{color: darkorange;}
+
+ /* input */
+input[type="email"]:invalid +span.msg {visibility: visible;}
+input[type="email"]:valid+span.msg{visibility: hidden;}
+
+input:focus{color: #b9b2c7d9;}
+
+/* pseudo elements selector */
+div.DIV12::after{content: "-Remember this";}
+div.DIV12::before{content: "-Remember this";}
+div.DIV12::first-letter{color: rgb(199, 184, 18);}
+div.DIV12::first-line{color: #19e27a;}
+div.DIV12::selection{content: "-Remember this"; color: #b8c4cb;}
  
+span.sp::after{content: "*";}
+input[type="text"]::placeholder{color: #19e27a;}
 
 
