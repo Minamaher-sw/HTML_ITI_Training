@@ -34,3 +34,7 @@ h1 span{color: #160dcb;}
 div>p{color: darkmagenta; font-size: medium;}
 div>span{font-size: medium;}
 span p{color: #160dcb ; font-size: xx-large;}
+
+/* Adjacent sibling selector  inheritance  */
+div+p{color: rgb(192, 24, 192); font-size: medium;}
+div~p{color: #19e27a ; font-size: xx-large;}
