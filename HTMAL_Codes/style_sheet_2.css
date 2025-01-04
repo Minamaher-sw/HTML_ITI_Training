@@ -1,0 +1,30 @@
+/* inhirtance */
+p{color: beige; font-size: 40;}
+/* specifity  id has hight specifity*/
+a{color: brown !important}
+
+#Hr{color: blueviolet;}
+a.href{color: rgb(30, 210, 39);}
+
+/*  CSS properties */
+/* Font Style */
+#PP{color: aliceblue; font-family: Arial, Helvetica, sans-serif;font-size: xx-large; font-style: italic; font-weight: bold;font-variant: small-caps;}
+/* Text Styles */
+#pre{ text-align: center ;font-size: xx-large; letter-spacing: 2px; text-transform: uppercase; text-decoration: underline;}
+/* Text and background color */
+#pre{color: aliceblue; background-color: blue; }
+/*Border and padding and mardin */
+#T1{color: aliceblue; border-top-style: dotted; border-bottom-style: dashed;border-right-style: solid;border-left-style: groove;}
+#T1{border-top-width: 3px;border-left-width: 6px;border-bottom-width: 1px;border-right-width: 10px;}
+#T1{border-top-color:blue;border-left-color: #aa1199;border-bottom-color: rgb(30, 210, 39);border-right-color: rgb(130, 210, 39);}
+
+th{border: solid 2px gold;}
+
+/*padding */
+th{padding: 5px;}
+
+/* margin */
+#T1{margin-top: 15px;margin-left: 15px;}
+
+/* background imag */
+#D2{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdIe37t-Pej9f7MEf41fw4WB04jSaIfnD0Q&s); background-size: 128px,128px; background-repeat: no-repeat; background-position: left;}
