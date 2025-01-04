@@ -1,0 +1,72 @@
+span{color: rgb(203, 37, 78); border: solid 3px yellowgreen;}
+*{color: hwb(271 7% 11%); font-size: larger;}
+div *{border: dashed 2px blanchedalmond;}
+div{border: solid 3px blanchedalmond;}
+/* specific attribute with value*/
+input[type="date"]{ background-color: #0dcb59; color: aliceblue;}
+/* all text */
+[type ="text"]{background-color: crimson; color: chartreuse;}
+
+/* from name of attribute*/
+[name~=myage]{background-color: crimson; color: chartreuse;}
+
+/* for ankor <a> */
+a[href ^=http]{color: aquamarine; font-size: 34;}
+
+a[href$=com]{color: rgb(234, 150, 24); font-size: 34;}
+
+/* ID Selector */
+#DIV1{color: rgb(14, 220, 86); font-size: 22; background-color: aliceblue;}
+
+/* Classes Selector */
+p{font-family: 'Times New Roman', Times, serif;}
+p.parg{background-color: #0dcb59; color: aliceblue;}
+p.parg1{background-color: #160dcb; color: aliceblue;}
+p.boldtxt{font-weight: bold;}
+p.largtxt{font-size: xx-large;}
+
+.bold{font-weight: bold; font-size: xx-large;}
+
+/* Descendant and contextual Selector */
+h1{color: rgb(40, 209, 21);}
+h1 span{color: #160dcb;}
+/* child selector */
+div>p{color: darkmagenta; font-size: medium;}
+div>span{font-size: medium;}
+span p{color: #160dcb ; font-size: xx-large;}
+
+/* Adjacent sibling selector  inheritance  */
+div+p{color: rgb(192, 24, 192); font-size: medium;}
+div~p{color: #19e27a ; font-size: xx-large;}
+/* Grouping Selector */
+h4,h4,h4{color: aqua;font-weight: bold;}
+
+/* Pseudo Class
+ 1- ANCHOR Pseudo Class
+ */
+ a:link{color: orchid;} /* nvisited link */
+ a:visited{color: crimson;} /* visited link */
+ a:hover {color: #19e27a;} /* mouse over link */
+ a:active{color: aliceblue;}
+ a.menu:active{color: #160dcb;}
+
+ /* paragraph pseudo selector */
+ p:first-child{color: darkorange;}
+
+ /* input */
+input[type="email"]:invalid +span.msg {visibility: visible;}
+input[type="email"]:valid+span.msg{visibility: hidden;}
+
+input:focus{color: #b9b2c7d9;}
+
+/* pseudo elements selector */
+div.DIV12::after{content: "-Remember this";}
+div.DIV12::before{content: "-Remember this";}
+div.DIV12::first-letter{color: rgb(199, 184, 18);}
+div.DIV12::first-line{color: #19e27a;}
+div.DIV12::selection{content: "-Remember this"; color: #b8c4cb;}
+ 
+span.sp::after{content: "*";}
+input[type="text"]::placeholder{color: #19e27a;}
+
+
