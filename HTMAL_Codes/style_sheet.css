@@ -1,0 +1,16 @@
+span{color: rgb(203, 37, 78); font-size: x-large; border: solid 3px yellowgreen;}
+*{color: hwb(271 7% 11%); font-size: larger;}
+div *{border: dashed 2px blanchedalmond;}
+div{border: solid 3px blanchedalmond;}
+/* specific attribute with value*/
+input[type="date"]{ background-color: #0dcb59; color: aliceblue;}
+/* all text */
+[type ="text"]{background-color: crimson; color: chartreuse;}
+
+/* from name of attribute*/
+[name~=myage]{background-color: crimson; color: chartreuse;}
+
+/* for ankor <a> */
+a[href ^=http]{color: aquamarine; font-size: 34;}
+
+a[href$=com]{color: rgb(234, 150, 24); font-size: 34;}
