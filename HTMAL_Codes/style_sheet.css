@@ -38,3 +38,17 @@ span p{color: #160dcb ; font-size: xx-large;}
 /* Adjacent sibling selector  inheritance  */
 div+p{color: rgb(192, 24, 192); font-size: medium;}
 div~p{color: #19e27a ; font-size: xx-large;}
+/* Grouping Selector */
+h4,h4,h4{color: aqua;font-weight: bold;}
+
+/* Pseudo Class
+ 1- ANCHOR Pseudo Class
+ */
+ a:link{color: orchid;} /* nvisited link */
+ a:visited{color: crimson;} /* visited link */
+ a:hover {color: #19e27a;} /* mouse over link */
+ a:active{color: aliceblue;}
+ a.menu:active{color: #160dcb;}
+ 
+
+
