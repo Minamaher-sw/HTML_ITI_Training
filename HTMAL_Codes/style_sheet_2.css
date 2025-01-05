@@ -28,3 +28,6 @@ th{padding: 5px;}
 
 /* background imag */
 #D2{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUdIe37t-Pej9f7MEf41fw4WB04jSaIfnD0Q&s); background-size: 128px,128px; background-repeat: no-repeat; background-position: left;}
+
+#D3{ border: solid 3px orangered ;}
+span{border: dashed 3px darkorange ; color: aliceblue;}
